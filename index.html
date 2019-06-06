@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=yes, user-scalable=0">
+
+  <title>Loom Network - The Next-Generation Blockchain Application Platform for Ethereum.</title>
+  <meta name="description" content="Loom Network is a Layer 2 scaling solution for Ethereum that is live in production. It is a network of DPoS sidechains, which allows for highly-scalable games and user-facing DApps while still being backed by the security of Ethereum.">
+  <!--Favicon-->
+  <link rel="icon" href="/images/favicon.ico">
+
+  <!--Description-->
+  <meta property="og:title" content="Loom Network" />
+  <meta property="og:description" content="Loom Network is a Layer 2 scaling solution for Ethereum that is live in production. It is a network of DPoS sidechains, which allows for highly-scalable games and user-facing DApps while still being backed by the security of Ethereum." />
+  <meta property="og:url" content="//loomx.io/" />
+  <meta property="og:image" content="https://loomx.io/images/rgb-text-white-bg.png" />
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Loom Network">
+
+  <!-- Scripts -->
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+    analytics.load("u3Y7QVcslJVllsets4m0nxjCZKqX9qhM");
+    analytics.page();
+    }}();
+  </script>
+  <link href="/assets/stylesheets/main.bundle-84ae1a83.css" rel="stylesheet" />
+</head>
+
+
+  <body>
+    <div class="sidebar-menu">
+  <div class="sidebar-menu-dropback"></div>
+  <div class="sidebar-menu-content">
+    <a class="javascript:;" id="close-menu">
+      <img src="/images/close-12e6ceb8.svg">
+    </a>
+    <ul class="d-table list-unstyled">
+      <li class="menu-title text-uppercase">
+        Our Products
+      </li>
+      <li>
+        <a href="https://loomx.io/developers/" target="_blank">Loom SDK</a>
+      </li>
+      <li>
+        <a href="https://ethfiddle.com/" target="_blank">EthFiddle</a>
+      </li>
+      <li>
+        <a href="https://ethdeploy.com/" target="_blank">EthDeploy</a>
+      </li>
+      <li>
+        <a href="https://solidityx.org/" target="_blank">SolidityX</a>
+      </li>      
+      <li>
+        <a href="https://cryptozombies.io/" target="_blank">CryptoZombies</a>
+      </li>
+      <li>
+        <a href="https://delegatecall.com/what-is-blockchain/#/splashcreen" target="_blank">What is Blockchain</a>
+      </li>
+      <li>
+        <a href="https://delegatecall.com" target="_blank">DelegateCall</a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="/team">About us</a>
+      </li>
+      <li class="divider"></li>      
+          <li>
+            <a " href="/">EN</a>
+          </li>
+          <li>
+            <a " href="/zh">中文</a>
+          </li>
+          <li>
+            <a " href="/ko">한국어</a>
+          </li>
+          <li>
+            <a " href="/es">ES</a>
+          </li>
+          <li>
+            <a " href="/ja">日本</a>
+          </li>
+          <li>
+            <a " href="/th">ไทย</a>
+          </li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <nav class="block-foreground d-flex navbar navbar-dark navbar-expand-md ext-uppercase app-navbar mb-0 justify-content-between">
+    <div class="container d-flex  justify-content-between">
+      <a class="navbar-brand" href="/">
+        <img src='/images/logo-e28b304f.svg' class="d-inline-block align-top">
+      </a>
+      <button class="navbar-toggler border-0" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-none d-md-block" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link px-3 font-weight-normal text-white header_nav  has_sub_menu" href="javascript:;">
+                Products
+                  <i class="fas fa-angle-down ml-1"></i>
+              </a>
+                  <div class="sub-menu">
+                    <div class="sub-menu-wrapper">
+                      <a class="javascript:;" id="close-menu">
+                        <img src="/images/close-12e6ceb8.svg">
+                      </a>
+                      <div class="container">
+                        <div class="row">
+                          <div class="products-menu col-sm-8">
+                            <h1 class="light-grey text-center">Products</h1>
+                            <div class="d-flex flex-row justify-content-around menu-items__wrapper">
+                              <ul class="list-unstyled d-table">
+                                <li class="menu-title">
+                                  Coding
+                                </li>
+                                <li>
+                                  <a href="https://loomx.io/developers/" target="_blank">Loom SDK</a>
+                                </li>
+                                <li>
+                                  <a href="https://ethfiddle.com/" target="_blank">EthFiddle</a>
+                                </li>
+                                <li>
+                                  <a href="https://ethdeploy.com/" target="_blank">EthDeploy</a>
+                                </li>
+                                <li>
+                                  <a href="https://solidityx.org/" target="_blank">SolidityX</a>
+                                </li>
+                              </ul>
+                              <ul class="list-unstyled d-table">
+                                <li class="menu-title">
+                                  Education and games
+                                </li>
+                                <li>
+                                  <a href="https://cryptozombies.io/" target="_blank">CryptoZombies</a>
+                                </li>
+                                <li>
+                                  <a href="https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg?ref=asegu3" target="_blank">Zombie Battleground</a>
+                                </li>
+                                <li>
+                                  <a href="https://delegatecall.com/what-is-blockchain/#/splashcreen" target="_blank">What is Blockchain</a>
+                                </li>
+                              </ul>
+                              <ul class="list-unstyled d-table">
+                                <li class="menu-title">
+                                  Social networks
+                                </li>
+                                <li>
+                                  <a href="https://delegatecall.com" target="_blank">DelegateCall</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="useful-menu col-sm-4">
+                            <h1 class="light-grey text-center">Useful Links</h1>
+                            <div class="d-flex flex-row justify-content-around menu-items__wrapper">
+                              <ul class="list-unstyled d-table">
+                                <li>
+                                    <a href="https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe" class="" target="_blank">
+                                      FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                  <a href="https://github.com/loomnetwork" target="_blank">Github</a>
+                                </li>
+                                <li>
+                                  <a href="https://medium.com/loom-network" target="_blank">Medium</a>
+                                </li>
+                                <li>
+                                  <a href="https://angel.co/loom-network-1" target="_blank">Angel.co</a>
+                                </li>
+                              </ul>
+                              <ul class="list-unstyled d-table">
+                                <li>
+                                  <a href="https://t.me/loomnetwork" target="_blank">Telegram</a>
+                                </li>
+                                <li>
+                                  <a href="https://twitter.com/loomnetwork" target="_blank">Twitter</a>
+                                </li>
+                                <li>
+                                  <a href="/cdn-cgi/l/email-protection#047765706b776c6d44686b6b697c2a6d6b">Email</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link px-3 font-weight-normal text-white header_nav  " href="/team">
+                About us
+              </a>
+            </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+      <div class="d-none d-md-block">
+        <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/">EN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/zh">中文</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/ko">한국어</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/es">ES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/ja">日本</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 font-weight-normal text-white header_nav "  href="/th">ไทย</a>
+              </li>
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</div>
+
+  	<section class="loom-hero px-0 block pt-0 pb-0 mb-3">
+  <div class="hero-container">
+    <div class="container">
+      <div class="row app-align-center justify-content-start align-items-end">
+        <div class="col text-center text-sm-left hero-text__wrapper">
+          <div class="text-white hero-title font-weight-semi-bold">The Next-Generation Blockchain Application Platform for Ethereum.</div>
+          <div class="text-right d-sm-none">
+            <img class="img-fluid" src="/images/loom-hero-retina-b3a3f13f.png">
+          </div>
+          <div class="p-0">
+            <div class="font-italic hero-subtitle font-weight-medium">Loom Network’s DPoS sidechains allow for truly scalable blockchain games and DApps with the security of Ethereum mainnet. Like EOS on Ethereum.</div>
+          </div>
+          <div class="d-flex flex-column flex-lg-row p-0">
+            <a class=" btn btn-rounded has-shadow font-weight-semi-bold mx-auto mx-sm-0 mr-sm-auto d-inline-block main_CTA_button" href="https://loomx.io/developers/" target="_blank">
+              Developers, Start Building Now
+            </a>
+          </div>
+        </div>
+        <div class="hero-animation__wrapper d-none d-sm-block">
+          <img style="position: absolute; left: 32px; top: 0px; " src="/images/hero_animation/Back_planets-c2683561.svg" alt="">
+          <img style="position: absolute; left: 0px; top: 248px; " src="/images/hero_animation/Loomy-85d5388d.png" alt="">
+          <img id="z01" style="position: absolute; left: 163px; top: 311px; " src="/images/hero_animation/01-743dc0fb.svg" alt="">
+          <img id="z1-4" style="position: absolute; left: 282px; top: 344px; -webkit-transform-origin: left bottom; -moz-transform-origin:  left bottom; -o-transform-origin:  left bottom; -ms-transform-origin:  left bottom; transform-origin: left bottom;" src="/images/hero_animation/1-4-0b22dfa6.svg" alt="">
+          <img id="z04" style="position: absolute; left: 308px; top: 259px;  -webkit-transform-origin: left bottom; -moz-transform-origin:  left bottom; -o-transform-origin:  left bottom; -ms-transform-origin:  left bottom; transform-origin:  left bottom;" src="/images/hero_animation/04-623e7196.svg" alt="">
+          <img id="z06" style="position: absolute; left: 345px; top: 359px; " src="/images/hero_animation/06-863dc68f.svg" alt="">
+          <img id="z1-2" style="position: absolute; left: 247px; top: 290px; -webkit-transform-origin: left bottom; -moz-transform-origin:  left bottom; -o-transform-origin:  left bottom; -ms-transform-origin:  left bottom; transform-origin:  left bottom; " src="/images/hero_animation/1-2-e8e9565c.svg" alt="">
+          <img id="z02" style="position: absolute; left: 260px; top: 204px; " src="/images/hero_animation/02-de34373d.svg" alt="">
+          <img id="z2-1" style="position: absolute; left: 190px; top: 259px; " src="/images/hero_animation/2-1-10880838.svg" alt="">
+          <img id="z03" style="position: absolute; left: 158px; top: 198px; -webkit-transform-origin: right bottom; -moz-transform-origin:  right bottom; -o-transform-origin:  right bottom; -ms-transform-origin:  right bottom; transform-origin: right bottom; " src="/images/hero_animation/03-a339c978.svg" alt="">
+          <img id="z05" style="position: absolute; left: 194px; top: 94px; -webkit-transform-origin: center bottom; -moz-transform-origin:  center bottom; -o-transform-origin:  center bottom; -ms-transform-origin:  center bottom; transform-origin: center bottom; " src="/images/hero_animation/05-452900f4.svg" alt="">
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<section class="block crypto-brands">
+  <div class="container">
+    <div class="inner-container">
+      <div class="row align-items-center justify-content-center flex-wrap-reverse">
+        <div class="col-md-6 text-center text-md-left mt-3 mt-md-0">
+          <ul class="list-inline m-0">
+            <li class="list-inline-item">
+              <img class="img-fluid" src="/images/brands/axie-f8117617.png">
+            </li>
+            <li class="list-inline-item">
+              <img class="img-fluid" src="/images/brands/nd-f4811f0f.png">
+            </li>
+            <li class="list-inline-item d-none d-sm-inline d-md-none d-lg-inline">
+              <img class="img-fluid" src="/images/brands/p-78513a52.png">
+            </li>
+            <li class="list-inline-item last-item">
+              <a href="https://loomx.io/developers/en/users.html" target="_blank">
+                More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-flex p-0 mb-3 mb-md-0 justify-content-end">
+            <span class="font-weight-semi-bold text-center text-md-left ml-auto mr-auto mr-md-0 ml-md-0">
+              Over 200,000 CryptoZombies students!<br/>62000+ blocks processed and counting
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<section class="block introduce-block" style="padding-top:52px; padding-bottom:32px;"> 
+  <div class="container">
+    <div class="inner-container">
+      <div class="d-flex flex-column flex-md-row align-items-center">
+        <div class="d-none d-lg-block">
+          <img class="img-fluid" style="max-height:266px; max-width:319px;" src="/images/what-is-loom-8fc7e318.png">
+        </div>
+        <div class="introduce mx-auto text-center text-lg-left">
+          <h1 class="block-title light-grey mb-4" >What is Loom Network?</h1>
+          <img src="/images/what-is-loom-8fc7e318.png" style="max-height:266px; max-width:319px;" class="d-lg-none img-fluid mb-3">
+          <h3 class="mx-auto light-grey limited-width font-weight-medium text-left">
+            Loom Network is a Layer 2 scaling solution for Ethereum that is <strong>live in production</strong>. It is a network of DPoS sidechains, which allows for <strong>highly-scalable games and user-facing DApps</strong> while still being <strong>backed by the security of Ethereum.</strong>
+          </h3>
+          <!-- <div class="limited-width mx-auto mt-3 text-left">
+            <a href="https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe" class="d-none d-sm-block" target="_blank">
+              Everything You Need to Know About Loom Network
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+            <a href="https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe" class="d-sm-none" target="_blank">
+              Everything You Need to Know
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="block guide-block" style="padding-bottom:98px;">
+  <div class="container">
+    <div class="inner-container">
+      <div class="d-flex flex-column flex-lg-row justify-content-between">
+        <div class="guide-card d-flex flex-column mx-auto mb-4 mb-lg-0">
+          <h1 class="title text-center light-grey line-height-normal font-weight-semi-bold">Live in production</h1>
+          <div class="body flex-fill light-grey">
+            <p> Loom Network has been live in production since March 2018. Developers, start building on Loom today. </p>
+          </div>
+          <a class="selectior_btn" href="https://loomx.io/developers/">
+            Download Our SDK
+          </a>
+        </div>
+        <div class="guide-card d-flex flex-column mx-auto mb-4 mb-lg-0">
+          <h1 class="title text-center light-grey line-height-normal font-weight-semi-bold">Highly Scalable Sidechains</h1>
+          <div class="body flex-fill light-grey">
+            <p>
+              Dubbed “EOS on Ethereum”, Loom’s DPoS sidechains provide the same high scalability and throughput promised by alternative platforms like EOS, while still being fully Ethereum-compatible and secure.
+            </p>
+          </div>
+          <a href="https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe" target="_blank" class="selectior_btn">
+            Learn More
+          </a>
+        </div>
+        <div class="guide-card d-flex flex-column mx-auto">
+          <h1 class="title text-center light-grey line-height-normal font-weight-semi-bold">Backed by Ethereum</h1>
+          <div class="body flex-fill light-grey">
+            <p>
+              We built the world’s first Plasma Cash implementation, which allows Ethereum-based tokens to be used on Loom sidechains with the full security guarantees of Ethereum.
+            </p>
+          </div>
+          <a class="selectior_btn" href="https://medium.com/loom-network/plasma-cash-initial-release-plasma-backed-nfts-now-available-on-loom-network-sidechains-37976d0cfccd" target="_blank">
+            Read Announcement
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="block kick-starter">
+  <div class="container">
+    <div class="inner-container">
+      <div class="d-flex flex-column flex-md-row align-items-center">
+        <div class="d-none d-lg-block">
+          <img class="img-fluid" src="/images/kickstarter-68b54378.png">
+        </div>
+        <div class="introduce mx-auto text-center text-lg-left">
+          <h1 class="mb-3 font-weight-medium">We are on KickStarter!</h1>
+          <img src="/images/kickstarter-68b54378.png" class="d-lg-none img-fluid mb-3">
+          <h4 class="mb-4 light-grey font-weight-medium">The New Generation of CCG/TCG. Collect, control, and ACTUALLY own your cards</h4>
+          <a href="https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg?ref=asegu3" target="_blank">
+            Learn more
+            <i class="fa fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="block crypto-block">
+  <div class="container d-flex flex-row">
+    <div class="mx-auto text-center text-lg-right pt-4 col-lg-auto col-md-6 pb-4">
+      <h1 class="text-white overflow-wrap">Cryptozombies</h1>
+      <h4 class="text-white font-weight-medium">Learn to Code Ethereum DApps By Building Your Own Game</h4>
+      <a href="https://cryptozombies.io/" target="_blank">Get Started, it's free</a>
+    </div>
+    <div class="d-none d-md-block">
+      <img class="img-fluid" src="images/zombie-avatar-e80e1827.png">
+    </div>
+  </div>
+</section> -->
+
+<section class="block mailchimp-block text-center" style="padding-bottom:34px; padding-top:40px;">
+    <div class="container">
+      <form action="https://www.getdrip.com/forms/423848905/submissions" method="post" data-drip-embedded-form="423848905">
+        <h1 data-drip-attribute="headline" class="light-grey mb-4">Get Bi-weekly Updates About Loom Network</h1>
+        <h5 data-drip-attribute="description" class="font-weight-semi-bold light-grey pb-2 mb-5">Get the inside scoop on what Loom Network is up to—LONG before the public.</h5>
+        <div>
+            <input type="email" id="drip-email" name="fields[email]" value="" placeholder="vitalik@nakamoto.com" class="limited-width-4 w-100"/>
+        </div>
+        <div>
+          <input class="send_me_btn" type="submit" value="Send Me Bi-weekly Updates" data-drip-attribute="sign-up-button" />
+        </div>
+      </form>
+      <img src="/images/loomy-1-ae9bb8f8.png" style="max-height:397px; max-width: 387px; " class="loomy-avatar">
+    </div>
+  </section>
+
+<h1  class="block-title text-center light-grey m-5" style="padding-top:40px !important;">What DApps Run on Loom Network?</h1>
+
+<section class="block app-block" style="margin-top:0px !important; padding-top:10px !important;">
+  <div class="container">    
+    <div class="row align-items-center">
+      <div class="col-lg-7 d-none d-lg-block">
+        <img class="img-fluid" src="/images/battleground-thumb-76347d0f.png">
+      </div>
+      <div class="col-lg-5 text-center text-lg-left right_cont_padding_30">
+        <h2 class="light-grey mb-2 font-weight-semi-bold d-lg-block d-none">Zombie Battleground, the world’s first 100% blockchain-based game</h2>
+        <h1 class="light-grey mb-2 font-weight-semi-bold d-lg-none mb-3">Zombie Battleground, the world’s first 100% blockchain-based game</h1>
+        <img src="/images/battleground-thumb-76347d0f.png" style="max-width:573px; max-heigh:348px;" class="d-lg-none img-fluid mt-3 mb-4">
+        <h3 class="font-weight-semi-bold mb-4 text-left">
+          The New Generation of CCG/TCG. Collect, control, and ACTUALLY own your cards on the blockchain. Now taking pre-orders on Kickstarter.
+        </h3>
+        <a href="https://www.kickstarter.com/projects/328862817/zombie-battleground-the-new-generation-of-ccg-tcg?ref=asegu3" target="_blank" class="float-left">
+          Check it out on Kickstarter
+          <i class="fa fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block app-block" style="margin-top:0px !important; padding-top:36px !important;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7 d-none d-lg-block">
+        <img class="img-fluid" style="" src="/images/articles/delegatecall-live-e94fafc6.png">
+      </div>
+      <div class="col-lg-5 text-center text-lg-left right_cont_padding_30">
+        <h2 class="light-grey font-weight-semi-bold d-lg-block d-none">DelegateCall, 100% blockchain-based social Q&A site</h2>
+        <h1 class="light-grey font-weight-semi-bold d-lg-none mb-3">DelegateCall, 100% blockchain-based social Q&A site</h1>
+        <img src="/images/articles/delegatecall-live-e94fafc6.png" class="d-lg-none img-fluid mt-3 mb-4">
+        <h3 class="font-weight-medium mb-4 text-left">
+          Live in production since March, with 80,000 blocks and counting. Thousands of users go to DelegateCall to get their blockchain questions answered and earn tokenized karma.
+        </h3>
+        <a href="https://delegatecall.com" target="_blank" class="float-left">
+          Ask on Delegatecall
+          <i class="fa fa-arrow-right ml-2"></i>
+        </a>
+      </div>      
+    </div>
+  </div>
+</section>
+
+<section class="block app-block" style="margin-top:0px !important; padding-top:32px !important;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7 d-none d-lg-block">
+        <img class="img-fluid" src="/images/cryptozombie-thumb-385baa55.png">
+      </div>
+      <div class="col-lg-5 text-center text-lg-left right_cont_padding_30">
+        <h2 class="light-grey mb-2 font-weight-semi-bold d-lg-block d-none">CryptoZombies, Ethereum’s most popular DApp coding tutorial</h2>
+        <h1 class="light-grey mb-2 font-weight-semi-bold d-lg-none mb-3">CryptoZombies, Ethereum’s most popular DApp coding tutorial</h1>
+        <img src="/images/cryptozombie-thumb-385baa55.png" class="d-lg-none img-fluid mt-3 mb-4">
+        <h3 class="font-weight-medium mb-4 text-left">
+          Learn to code Ethereum DApps by building your own game. 200,000+ users and counting. It’s free!
+        </h3>
+        <a href="https://cryptozombies.io/" target="_blank" class="float-left">
+          Start learning now
+          <i class="fa fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block article-block" style="margin-top:0px !important; padding-top:40px !important;">
+  <div class="container">
+    <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-2">
+            <div class="loom-article d-flex flex-column h-100">
+              <img class="w-100 mb-4 img-fluid" src="/images/articles/axie-infinity-089f2ab6.png">
+              <h5 class="flex-fill mb-3 font-weight-semi-bold">Loom SDK Projects: Axie Infinity - Collect, Breed, and Battle Fantasy Pets on the Blockchain!</h5>
+              <a href="https://medium.com/loom-network/loom-sdk-projects-axie-infinity-collect-breed-and-battle-fantasy-pets-on-the-blockchain-22e6fd11b410" target=_blank>
+                Learn More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-2">
+            <div class="loom-article d-flex flex-column h-100">
+              <img class="w-100 mb-4 img-fluid" src="/images/articles/neon-district-c39f3712.png">
+              <h5 class="flex-fill mb-3 font-weight-semi-bold">Loom SDK Projects: Neon District, a Blockchain-Based Cyberpunk RPG</h5>
+              <a href="https://medium.com/loom-network/loom-sdk-projects-neon-district-a-blockchain-based-cyberpunk-rpg-46da277461a0" target=_blank>
+                Learn More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-2">
+            <div class="loom-article d-flex flex-column h-100">
+              <img class="w-100 mb-4 img-fluid" src="/images/articles/pixie-shopping-street-e25b4745.png">
+              <h5 class="flex-fill mb-3 font-weight-semi-bold">Loom SDK Projects: Pixie Shopping Street, a Clothing Design / Dress-Up Game & Marketplace</h5>
+              <a href="https://medium.com/loom-network/loom-sdk-projects-pixie-shopping-street-a-clothing-design-dress-up-game-marketplace-440e90f56a32" target=_blank>
+                Learn More
+                <i class="fa fa-arrow-right ml-2"></i>
+              </a>
+            </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+<section class="block sdk-block">
+    <div class="d-flex flex-row">
+      <div class="col-md-7 text-center align-items-center d-flex flex-column introduce__wrapper pr-md-5">
+        <h1 class="text-white font-weight-medium limited-width-3 text-left">Developers, Start Building Today</h1>
+        <h4 class="text-white font-weight-medium limited-width-3 text-left">We have numerous example apps and developer SDKs for Unity, Cocos, Phaser, JavaScript, and GoLang to make getting started easy.</h4>
+        <a href="https://loomx.io/developers/" class="Start_build_Btn" target="_blank">Start Building Now</a>
+      </div>
+      <div class="col-md-5 d-none d-md-flex align-items-center">
+        <img class="img-fluid" src="/images/loom-sdk-avatar-2d310c76.png">
+      </div>
+    </div>
+  </section>
+
+<section class="block article-block">
+  <div class="container">
+    <h1 class="block-title text-center light-grey ">Learn More About Loom Network On Our Blog</h1>
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/ethereum-will-be-backbone-252a673d.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">Ethereum Will Be the Backbone of the New Internet</h5>
+            <a href="https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/everything-about-us-7d2fe3c8.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">Everything You Need to Know About Loom Network, All In One Place</h5>
+            <a href="https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/announcing-zombie-chain-224f3bd9.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">Announcing Zombie Chain: An EOS-Like DPoS Sidechain for Ethereum DApps</h5>
+            <a href="https://medium.com/loom-network/announcing-zombiechain-an-eos-like-dpos-sidechain-for-ethereum-dapps-e0eba6c244da" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/game-developers-82487dcb.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">Game Developers: Develop Blockchain Games without Knowing Blockchain Programming - with the Loom ...</h5>
+            <a href="https://medium.com/loom-network/game-developers-develop-blockchain-games-without-knowing-blockchain-programming-with-the-loom-e1b5bb0e94b5" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/china-biggest-mobile-game-2ba6c644.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">China's Biggest Mobile Game Platform Announces Plans to Integrate with Loom DApp Chains</h5>
+            <a href="https://medium.com/loom-network/chinas-biggest-mobile-game-platform-announces-plans-to-integrate-with-loom-dappchains-16ce5c14d44e" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <div class="loom-article d-flex flex-column h-100">
+            <img class="mb-4 w-100 img-fluid" src="/images/articles/partical-plasma-4e692352.png">
+            <h5 class="flex-fill mb-3 font-weight-semi-bold">Practical plasma (Volume I): Gaming</h5>
+            <a href="https://medium.com/loom-network/practical-plasma-volume-i-gaming-9cfd3f971734" target=_blank>
+              Learn More
+              <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="block article-block minor-padding">
+  <div class="container">
+    <h1 class="block-title light-grey text-center">Media Mentions</h1>
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://www.the-blockchain.com/2018/07/11/looms-dapps-gain-traction-as-go-to-resource-for-ethereum-development/" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/blockchain_news-dcb7da35.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">BlockchainNews</span>
+              </div>
+              <p class="media-content">
+                “When the Ethereum network ground to a halt from congestion caused by the Cryptokitties phenomenon the dApp scaling challenge became all too apparent for developers and the Loom SDK platform offered a solution.”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://media.consensys.net/scaling-shout-out-loom-network-d587168b15e3" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/consensys-1238c1a2.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">CONSENSYS</span>
+              </div>
+              <p class="media-content">
+                “They’re thought leaders when it comes to the necessity of blockchain games, and they are passionate about scaling using Plasma. Huge shout out to Loom!”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://www.coindesk.com/ethereums-first-production-scaling-project-catch/" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/coindesk-7d73250c.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">CoinDesk</span>
+              </div>
+              <p class="media-content">
+                “Loom Network […] is today releasing a developer toolkit that makes it possible to deploy scalable ethereum apps [...] effectively leapfrogging ongoing efforts such as Raiden Network and Plasma.”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://blockonomi.com/loom-network-guide/" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/blockonomi-eb553ac2.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">Blockonomi</span>
+              </div>
+              <p class="media-content">
+                “With the help of Loom Network, developers are able to run decentralized applications on a large scale. [...] Loom Network already has several dapps built on it that show off its usefulness and potential, indicating the strong possibility of growth in the future.”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://www.coindesk.com/zombiechain-comes-alive-can-ethereum-sidechains-save-dapps/" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/coindesk-7d73250c.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">CoinDesk</span>
+              </div>
+              <p class="media-content">
+                “‘Even projects that are already set up on mainnet,’ says Duffy, ‘could very easily port that same application to ZombieChain,’ adding: ‘It would reduce the cost significantly and also let them have a more fluid user experience.’”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://media.consensys.net/the-state-of-the-ethereum-network-949332cb6895" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/consensys-1238c1a2.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">CONSENSYS</span>
+              </div>
+              <p class="media-content">
+                “Loom Network has developed and launched a layer 2 platform on top of Ethereum, allowing gaming and social dApps to scale while still relying on Ethereum’s core security and decentralization.”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://medium.com/sunrise-over-the-merkle-trees/the-loom-boom-bringing-zombies-and-dapp-superhighways-to-life-47bac4c62b1f" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/ben_davidow-73ff3c3d.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">Ben Davidow</span>
+              </div>
+              <p class="media-content">
+                “Big visions are great, but there are plenty of big visions in this space. What I like about Loom is that it’s actually delivering.”
+              </p>
+            </div>
+          </a>
+        </div>        
+        <div class="col-lg-4 col-sm-6 mb-2">
+          <a href="https://hackernoon.com/axie-infinity-battling-and-the-loom-network-490153b4f3c7" target=_blank>
+            <div class="loom-article d-flex flex-column h-100">
+              <div class="mb-3 d-flex flex-row align-items-center">
+                <div class="media-logo-wrapper">
+                  <img src="/images/logo/axie_Infinity-bdce1b8b.png" class="media-logo">
+                </div>
+                <span class="media-title light-grey font-weight-semi-bold">Axie Infinity</span>
+              </div>
+              <p class="media-content">
+                “We have been paying close attention to Loom Network for some time and it is our great pleasure to announce that we will be using their technology to make Axie Infinity a more immersive gaming experience!”
+              </p>
+            </div>
+          </a>
+        </div>        
+    </div>
+  </div>
+</section>
+
+<section class="block call-block">
+  <div class="container text-center">
+    <h1 class="block-title text-center light-grey mb-3 mb-sm-5">
+      Got questions? Ask us on DelegateCall.
+    </h1>
+    <h5 class="mx-auto col-md-8 text-sm-left text-center font-weight-semi-bold light-grey">
+      DelegateCall.com is our official support channel. Any question you have about Loom Network, blockchain technology, or the meaning of life will be answered within a day.
+    </h5>
+    <a class="btn text-white btn-rounded has-shadow mt-sm-5 mt-3 d-inline-block ask_dc_button" href="https://delegatecall.com" target="_blank">
+      Ask on DelegateCall Now
+    </a>
+  </div>
+</section>
+
+    <div class="block footer-block bg-blue-gradient">
+  <div class="container">
+    <div class="inner-container">
+      <div class="footer-title">
+        <img src="/images/sm-logo-4010ced5.svg">
+        <span>Loom Network</span>
+      </div>
+      <div class="d-flex flex-row justify-content-around flex-wrap">
+        <div class="">
+          <ul class="list-unstyled list-spaced">
+            <li><a href="https://loomx.io" target="_blank" class="text-light hover-warning">LoomX.io</a></li>
+            <li><a href="https://EthFiddle.com" target="_blank" class="text-light hover-warning">EthFiddle.com</a></li>
+            <li><a href="https://EthDeploy.com" target="_blank" class="text-light hover-warning">EthDeploy.com</a></li>
+            <li><a href="https://cryptozombies.io" target="_blank" class="text-light hover-warning">Cryptozombies.io</a></li>
+            <li><a href="https://solidityx.org" target="_blank" class="text-light hover-warning">SolidityX.org</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <ul class="list-unstyled list-spaced">
+            <li><a href="https://github.com/loomnetwork" target="_blank" class="text-light hover-warning"><i class="fab fa-github"></i> Github</a></li>
+            <li><a href="https://medium.com/loom-network" target="_blank" class="text-light hover-warning"><i class="fab fa-medium"></i> Medium</a></li>
+            <li><a href="https://angel.co/loom-network-1" target="_blank" class="text-light hover-warning"><i class="fab fa-angellist"></i> Angel.co</a></li>
+            <li><a href="https://twitter.com/loomnetwork" target="_blank" class="text-light hover-warning"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://t.me/loomnetwork" target="_blank" class="text-light hover-warning"><i class="fab fa-telegram"></i> Telegram</a></li>
+            <li><a href="/cdn-cgi/l/email-protection#285b495c475b4041684447474550064147" target="_blank" class="text-light hover-warning"><i class="fas fa-envelope"></i> Email</a></li>
+          </ul>
+        </div>
+         <div class="col-lg-4 col-md-6">
+           <p>Loom Network is a Platform as a Service built on top of Ethereum that allows developers to run large-scale decentralized applications. This lets developers build DApps with the trust and security of the world’s most secure public blockchain, along with the computing resources necessary to run commercial-scale services. Like how Filecoin tokenized disk space, Loom aims to be the tokenized application protocol of the new decentralized web.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>var om_load_jquery = false; var om42565_37272,om42565_37272_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om42565_37272_poll(function(){if(window['om_loaded']){if(!om42565_37272){om42565_37272=new OptinMonsterApp();return om42565_37272.init({"a":37272,"staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;om42565_37272=new OptinMonsterApp();om42565_37272.init({"a":37272,"staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+<script src="/assets/javascript/main.bundle-ee0dcfd9.js"></script>
+
+  </body>
+</html>

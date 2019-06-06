@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="16px" viewBox="0 0 40 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>1-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.6438802%" y1="24.3140244%" x2="0%" y2="116.900276%" id="linearGradient-1">
+            <stop stop-color="#50CE9D" offset="0%"></stop>
+            <stop stop-color="#44CCFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="for-hero-animation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="For-animation-to-HTML" transform="translate(-351.000000, -341.000000)" fill="#D8D8D8" stroke="url(#linearGradient-1)" stroke-width="4">
+            <path d="M390.138462,343.654401 L351.846154,354.682631" id="1-4"></path>
+        </g>
+    </g>
+</svg>
