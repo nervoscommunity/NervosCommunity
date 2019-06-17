@@ -10904,7 +10904,7 @@ a.hover-warning:hover {
 }
 
 section.loom-hero {
-    background: #5756e6
+    background: #3CC68A
 }
 
 section.loom-hero .hero-container {
@@ -10938,7 +10938,7 @@ section.loom-hero .hero-container .hero-title {
 section.loom-hero .hero-container .hero-subtitle {
     font-size: 22px;
     margin-bottom: 3.75rem;
-    color: #50ffff
+    color: #424242
 }
 
 section.loom-hero .hero-container a.btn {
@@ -11056,7 +11056,7 @@ section.guide-block {
 }
 
 section.guide-block .guide-card {
-    max-width: 285px;
+    max-width: 400px;
     border: 2px solid #dadada;
     border-radius: 13px;
     padding: 30px
