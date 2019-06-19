@@ -11064,8 +11064,8 @@ section.guide-block .guide-card {
 
 section.guide-block .guide-card h1 {
     font-size: 1.75rem;
-    min-height: 78px;
-    margin-bottom: 29px
+    min-height: 50px;
+    margin-bottom: 20px
 }
 
 section.guide-block .guide-card p {
